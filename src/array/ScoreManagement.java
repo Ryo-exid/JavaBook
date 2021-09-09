@@ -14,6 +14,5 @@ public class ScoreManagement {
 		
 		System.out.println("合計点：" + sumScore);
 		System.out.println("平均点：" + avgScore);
-		
 	}
 }
