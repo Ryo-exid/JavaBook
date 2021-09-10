@@ -14,6 +14,5 @@ public class RandomDNA {
 			char[] base = {'A', 'T', 'G', 'C'};
 			System.out.print(base[seq[i]] + " ");
 		}
-		
 	}
 }
