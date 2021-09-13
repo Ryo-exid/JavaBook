@@ -10,6 +10,13 @@ public class TwoDimentionalArray {
 		scores[1][1] = 60;
 		scores[1][2] = 70;
 		System.out.println(scores[1][1]);
+		
+		// -------------------------------------
+		
+		// 親配列と子配列の要素数を表示
+		int[][] prices = {{100, 150, 200}, {800, 600, 700}};
+		System.out.println(prices.length); // 2
+		System.out.println(prices[0].length); // 3
 	}
 }
 
