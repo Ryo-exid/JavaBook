@@ -2,7 +2,7 @@ package method;
 
 public class Overload {
 	
-	// 仮引数がの型が異なれば同じ名前のメソッドを複数定義することが許されている。
+	// 仮引数の型や個数が異なれば、同じ名前のメソッドを複数定義することが許されている。
 	
 	// 1つ目のaddメソッド
 	public static int add(int x, int y) {
