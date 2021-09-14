@@ -1,4 +1,4 @@
-package array;
+package method;
 
 public class ReturnArray {
 	
