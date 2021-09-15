@@ -21,7 +21,7 @@ public class Cleric {
 	public int pray(int sec) {
 		System.out.println(this.name + "は" + sec + "秒間、天に祈った！");
 		int recovery = new Random().nextInt(3) + sec; // 回復量（乱数）
-		int recoverActual = Math.min(this.MAX_MP - this.mp, recovery); // 実際の回復量
+		int recoverActual = Math.min(this.MAX_MP - this.mp, recovery); // 実際の回復量 ※minで小さい方の値を取得
 		this.mp += recoverActual;
 		System.out.println("MPが" + recoverActual + "回復した！");
 		return recoverActual;
