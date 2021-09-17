@@ -1,7 +1,5 @@
 package inheritance;
 
-import instanceAndClass.Monster;
-
 public class Hero {
 	String name;
 	int hp;
@@ -9,8 +7,9 @@ public class Hero {
 	// 戦う
 	public void attack(Monster m) {
 		System.out.println(this.name + "の攻撃！");
-//		m.hp -= 5;
-		System.out.println("5ポイントのダメージを与えた！");
+		m.hp -= 5;
+		System.out.println(this.name + "は" + m.name + "に5ポイントのダメージを与えた！");
+		System.out.println(m.name + "の残りHP：" + m.hp);
 	}
 	
 	// 逃げる
