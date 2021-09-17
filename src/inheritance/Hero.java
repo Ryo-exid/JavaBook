@@ -2,7 +2,7 @@ package inheritance;
 
 public class Hero {
 	String name;
-	int hp;
+	int hp = 100;
 	
 	// 子クラス（SuperHeroクラス）のインスタンスを生成した時、必ず親クラス（Heroクラス）のコンストラクタも呼び出される
 	public Hero(String name) {
@@ -13,8 +13,8 @@ public class Hero {
 	public void attack(Monster m) {
 		System.out.println(this.name + "の攻撃！");
 		m.hp -= 5;
-		System.out.println(this.name + "は" + m.name + "に5ポイントのダメージを与えた！");
-		System.out.println(m.name + "の残りHP：" + m.hp);
+		System.out.println(this.name + "は" + m.suffix + "に5ポイントのダメージを与えた！");
+		System.out.println(m.suffix + "の残りHP：" + m.hp);
 	}
 	
 	// 逃げる
