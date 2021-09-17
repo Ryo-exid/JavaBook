@@ -4,6 +4,11 @@ public class Hero {
 	String name;
 	int hp;
 	
+	// 子クラス（SuperHeroクラス）のインスタンスを生成した時、必ず親クラス（Heroクラス）のコンストラクタも呼び出される
+	public Hero(String name) {
+		this.name = name;
+	}
+	
 	// 戦う
 	public void attack(Monster m) {
 		System.out.println(this.name + "の攻撃！");
