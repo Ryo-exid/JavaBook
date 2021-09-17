@@ -3,6 +3,11 @@ package inheritance;
 public class SuperHero extends Hero {
 	boolean flying;
 	
+	// 子クラス（SuperHeroクラス）のコンストラクタ
+	public SuperHero(String name) {
+		super(name);
+	}
+	
 	public void attack(Monster m) {
 		super.attack(m); // 親インスタンスのattackメソッドを呼び出し
 		// 飛んでいる状態なら2回攻撃
@@ -13,7 +18,7 @@ public class SuperHero extends Hero {
 	
 	public void fly() {
 		this.flying = true;
-		System.out.println("飛び上がった！");
+		System.out.println(this.name + "は飛び上がった！");
 	}
 	
 	public void land() {
