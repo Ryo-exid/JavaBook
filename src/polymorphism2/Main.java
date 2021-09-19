@@ -15,9 +15,10 @@ public class Main {
 			ch.hp += 50;
 		}
 		
-		Monster[] monsters = new Monster[2];
+		Monster[] monsters = new Monster[3];
 		monsters[0] = new Matango("毒キノコ");
 		monsters[1] = new Goblin("ゴブリン");
+		monsters[2] = new Slime("スライム");
 		
 		// 同じ指示で異なる動作をさせることができる
 		for (Monster m : monsters) {
