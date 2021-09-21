@@ -2,6 +2,10 @@ package staticMember;
 
 public class Main {
 	public static void main(String[] args) {
+		// newsせずとも呼び出し可能
+		Hero.setRandomMoney();
+		System.out.println(Hero.money); // ランダムな金額を表示
+		
 		Hero h1 = new Hero("リョウ");
 		Hero h2 = new Hero("ゼシカ");
 		Hero.money = 100;
