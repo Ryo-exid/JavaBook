@@ -9,4 +9,9 @@ public class Hero {
 		this.name = name;
 		this.hp = 100;
 	}
+	
+	// 「勇者たちの所持金をランダムに設定する」メソッド ※staticの付くメソッドは"静的メソッド"または"クラスメソッド"と呼ばれる
+	public static void setRandomMoney() {
+		Hero.money = (int)(Math.random() * 1000);
+	}
 }
