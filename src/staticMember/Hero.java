@@ -15,3 +15,5 @@ public class Hero {
 		Hero.money = (int)(Math.random() * 1000);
 	}
 }
+
+// 静的メソッドの中に記述するコードはstaticがついていないフィールドやメソッドは利用できない。
