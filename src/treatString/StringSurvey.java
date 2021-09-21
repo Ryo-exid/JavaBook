@@ -1,7 +1,7 @@
 package treatString;
 
 // Stringクラスに備わる文字列調査メソッドを利用した例
-public class stringSurvey {
+public class StringSurvey {
 	public static void main(String[] args) {
 		String s1 = "スッキリJava";
 		String s2 = "Java";
