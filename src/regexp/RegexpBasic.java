@@ -20,5 +20,8 @@ public class RegexpBasic {
 		String greet = "HELLLO";
 		// 波カッコ：指定回数の繰り返し
 		System.out.println(greet.matches("HEL{3}O")); // true
+		
+		// 角カッコ：いずれかの文字
+		System.out.println(s.matches("Ja[cvn]a")); // 1文字目がJ、2文字目がa、3文字目がcかvかnのいずれかであること、4文字目がa
 	}
 }
