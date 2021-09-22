@@ -16,5 +16,9 @@ public class RegexpBasic {
 		// endsWith()やstartsWith()の代わりとして文字列の判定に利用可能
 		s.matches("Ma.*"); // Maで始まる任意の文字
 		s.matches(".*ful"); // fulで終わる任意の文字
+		
+		String greet = "HELLLO";
+		// 波カッコ：指定回数の繰り返し
+		System.out.println(greet.matches("HEL{3}O")); // true
 	}
 }
