@@ -23,5 +23,8 @@ public class RegexpBasic {
 		
 		// 角カッコ：いずれかの文字
 		System.out.println(s.matches("Ja[cvn]a")); // 1文字目がJ、2文字目がa、3文字目がcかvかnのいずれかであること、4文字目がa
+		
+		// 角カッコ内のハイフン：範囲指定のいずれかの文字
+		"url".matches("[a-z]{3}"); // a〜zのいずれか3文字
 	}
 }
