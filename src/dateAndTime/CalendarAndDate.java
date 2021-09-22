@@ -9,9 +9,9 @@ public class CalendarAndDate {
 		
 		// 6つのint値からDateインスタンスを生成
 		c.set(2019,8,22,1,23,45);
-		c.set(Calendar.MONTH, 9); // 月を9月に変更
+		c.set(Calendar.MONTH, 9); // 月を9（10）月に変更
 		Date d = c.getTime();
-		System.out.println(d);
+		System.out.println(d); // Tue Oct 22 01:23:45 JST 2019
 		
 		// Dateインスタンスからint値を生成
 		Date now = new Date();
