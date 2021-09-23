@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-// 現在から100日後の日付を「西暦〇〇〇〇年〇〇月〇〇日」という形式で表示するプログラム（Date、Calendar、）
+// 現在から100日後の日付を「西暦〇〇〇〇年〇〇月〇〇日」という形式で表示するプログラム（Date、Calendar、SimpleDateFormat）
 public class CalendarAndDatePractice {
 	public static void main(String[] args) {
 		// ①現在の日時をDate型で取得
