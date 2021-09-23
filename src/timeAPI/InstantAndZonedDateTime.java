@@ -35,3 +35,5 @@ public class InstantAndZonedDateTime {
 		}
 	}
 }
+
+// Time APIのクラスの多くではnewが禁止されており、静的メソッドであるnow()やof()を使ってインスタンスを生成することになっている。
