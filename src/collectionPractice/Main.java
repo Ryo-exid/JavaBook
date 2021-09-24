@@ -25,7 +25,7 @@ public class Main {
 		neoHeroes.put(h2, 7);
 		for (Hero nh : neoHeroes.keySet()) {
 			int value = neoHeroes.get(nh);
-			System.out.println(nh.getName() + "が倒した的＝" + value);
+			System.out.println(nh.getName() + "が倒した敵＝" + value);
 		}
 	}
 }
