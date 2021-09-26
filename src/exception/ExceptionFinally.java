@@ -7,7 +7,7 @@ public class ExceptionFinally {
 	public static void main(String[] args) {
 		FileWriter fw = null; // 例外が生じた場合に備えてnullを代入し、初期化しておく。
 		try {
-			fw = new FileWriter("data2.text");
+			fw = new FileWriter("data2.txt");
 			fw.write("Good morning!");
 		} catch (Exception e) {
 			System.out.println("何らかの例外が発生しました");
