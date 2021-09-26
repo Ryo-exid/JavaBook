@@ -8,7 +8,7 @@ public class Exception1 {
 			FileWriter fw = new FileWriter("data.txt");
 			fw.write("hello!");
 			fw.close();
-		} catch (Exception e) { // Exceptionの子孫をどれでもキャッチ
+		} catch (Exception e) { // Exceptionの子孫をどれでもキャッチ ※しかし、どのような種類の例外が発生しても同じように処理をするため、大雑把な例外処理になってしまう。
 			System.out.println("何らかの例外を補足しました");
 		}
 	}
