@@ -18,6 +18,7 @@ public class HelloServlet extends HttpServlet {
 		w.write("<html><body>");
 		w.write("Today is" + d.toString()); // 現在時刻を出力
 		w.write("</body></html>");
+	}
 }
 
 */
