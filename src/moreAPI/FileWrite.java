@@ -10,6 +10,6 @@ public class FileWrite {
 		fw.write("れ");
 		fw.write("で");
 		fw.write("は");
-		fw.close();
+		fw.close(); // ファイルを閉じる
 	}
 }
