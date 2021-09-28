@@ -10,5 +10,13 @@ public class Main {
 		
 		// 上記は1行で表すことも可能
 		new Human().new HumanLeg().kick();
+		
+		// --------------------------------------------------
+		
+		// Constants.java
+		System.out.println(Constants.Cat.NAME);
+		System.out.println(Constants.Cat.LEG_COUNT);
+		System.out.println(Constants.Octopus.NAME);
+		System.out.println(Constants.Octopus.LEG_COUNT);
 	}
 }
