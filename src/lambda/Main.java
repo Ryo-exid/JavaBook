@@ -9,3 +9,6 @@ public class Main {
 		System.out.println(greeting.hello());
 	}
 }
+
+// ラムダ式
+// (引数) -> {処理};
